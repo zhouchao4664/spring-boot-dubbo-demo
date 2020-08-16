@@ -1,7 +1,7 @@
 package com.zhouchao.controller;
 
 import com.zhouchao.service.ISayHelloService;
-import org.apache.dubbo.config.annotation.Reference;
+import org.apache.dubbo.config.annotation.DubboReference;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ComsumerController {
 
-    @Reference
+    @DubboReference
     ISayHelloService sayHelloService;
 
     @GetMapping("say")

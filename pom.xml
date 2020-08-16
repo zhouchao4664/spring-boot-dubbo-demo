@@ -25,6 +25,7 @@
 		<project-version>2.2.1.RELEASE</project-version>
 		<spring-boot-dubbo>2.7.7</spring-boot-dubbo>
 		<spring-boot-nacos>1.2.1</spring-boot-nacos>
+		<zookeeper-version>2.7.8</zookeeper-version>
 	</properties>
 
 	<dependencyManagement>
@@ -51,13 +52,18 @@
 			</dependency>
 			<dependency>
 				<groupId>org.apache.dubbo</groupId>
-				<artifactId>dubbo-spring-boot-starter-</artifactId>
+				<artifactId>dubbo-spring-boot-starter</artifactId>
 				<version>${spring-boot-dubbo}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.alibaba.nacos</groupId>
 				<artifactId>nacos-client</artifactId>
 				<version>${spring-boot-nacos}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.dubbo</groupId>
+				<artifactId>dubbo-dependencies-zookeeper</artifactId>
+				<version>${zookeeper-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
