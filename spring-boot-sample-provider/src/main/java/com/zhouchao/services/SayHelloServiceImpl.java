@@ -7,10 +7,10 @@ import org.apache.dubbo.config.annotation.DubboService;
  * 2020/8/16
  * zhouchao
  */
-@DubboService
+@DubboService(protocol = {"dubbo", "rest"})
 public class SayHelloServiceImpl implements ISayHelloService {
     @Override
     public String sayHello(String msg) {
-        return "Hello,"+msg;
+        return "Hello," + msg;
     }
 }
