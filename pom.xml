@@ -60,11 +60,6 @@
 				<artifactId>nacos-client</artifactId>
 				<version>${spring-boot-nacos}</version>
 			</dependency>
-			<dependency>
-				<groupId>org.apache.dubbo</groupId>
-				<artifactId>dubbo-dependencies-zookeeper</artifactId>
-				<version>${zookeeper-version}</version>
-			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
