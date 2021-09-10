@@ -67,6 +67,8 @@
 		<module>spring-boot-sample-api</module>
 		<module>spring-boot-sample-comsumer</module>
 		<module>spring-boot-sample-provider</module>
+        <module>spring-boot-sample-spi</module>
+		<module>spring-boot-sample-main</module>
 	</modules>
 
 	<build>

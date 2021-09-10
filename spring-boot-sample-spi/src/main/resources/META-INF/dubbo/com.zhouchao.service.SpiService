@@ -1,0 +1,2 @@
+human=com.zhouchao.spi.HumanService
+dog=com.zhouchao.spi.DogService
