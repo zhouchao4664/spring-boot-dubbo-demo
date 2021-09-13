@@ -2,6 +2,8 @@ package com.zhouchao.service;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.QueryParam;
 
 /**
  * 2020/8/9
@@ -13,5 +15,5 @@ public interface ISayHelloService {
 
     @GET
     @Path("/say")
-    String sayHello(String msg);
+    String sayHello(@QueryParam("msg") String msg);
 }

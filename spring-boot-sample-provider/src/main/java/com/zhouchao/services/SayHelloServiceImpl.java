@@ -11,6 +11,7 @@ import org.apache.dubbo.config.annotation.DubboService;
 public class SayHelloServiceImpl implements ISayHelloService {
     @Override
     public String sayHello(String msg) {
+        System.out.println(msg);
         return "Hello," + msg;
     }
 }
