@@ -69,6 +69,7 @@
 		<module>spring-boot-sample-provider</module>
         <module>spring-boot-sample-spi</module>
 		<module>spring-boot-sample-main</module>
+		<module>spring-boot-sample-filter</module>
 	</modules>
 
 	<build>
